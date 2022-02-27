@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c71fd94a-6adb-4d23-b693-69e758180614</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>WarwickHackAThon2</Name>
+    <RootNamespace>WarwickHackAThon2</RootNamespace>
+    <InterpreterId>MSBuild|projectEnvironment|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="runserver.py" />
+    <Compile Include="WarwickHackAThon2\databaseTemplate.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WarwickHackAThon2\__init__.py" />
+    <Compile Include="WarwickHackAThon2\views.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WarwickHackAThon2\" />
+    <Folder Include="WarwickHackAThon2\static\" />
+    <Folder Include="WarwickHackAThon2\static\content\" />
+    <Folder Include="WarwickHackAThon2\static\fonts\" />
+    <Folder Include="WarwickHackAThon2\static\images\" />
+    <Folder Include="WarwickHackAThon2\static\scripts\" />
+    <Folder Include="WarwickHackAThon2\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
+    <Content Include="WarwickHackAThon2\static\content\animate.css" />
+    <Content Include="WarwickHackAThon2\static\content\bootstrap.css" />
+    <Content Include="WarwickHackAThon2\static\content\bootstrap.min.css" />
+    <Content Include="WarwickHackAThon2\static\content\main.css" />
+    <Content Include="WarwickHackAThon2\static\content\site.css" />
+    <Content Include="WarwickHackAThon2\static\content\util.css" />
+    <Content Include="WarwickHackAThon2\static\fonts\font-awesome.css" />
+    <Content Include="WarwickHackAThon2\static\fonts\font-awesome.min.css" />
+    <Content Include="WarwickHackAThon2\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="WarwickHackAThon2\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="WarwickHackAThon2\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-Black.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-BlackItalic.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-Bold.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-BoldItalic.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-ExtraBold.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-ExtraBoldItalic.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-ExtraLight.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-ExtraLightItalic.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-Italic.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-Light.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-LightItalic.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-Medium.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-MediumItalic.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-Regular.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-SemiBold.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-SemiBoldItalic.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-Thin.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\Montserrat-ThinItalic.ttf" />
+    <Content Include="WarwickHackAThon2\static\fonts\OFL.txt" />
+    <Content Include="WarwickHackAThon2\static\images\Your_Look.png" />
+    <Content Include="WarwickHackAThon2\static\scripts\bootstrap.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\bootstrap.min.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\jquery-1.10.2.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="WarwickHackAThon2\static\scripts\jquery.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\jquery.validate.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\jquery.validate.min.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\main.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\nicepage.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\respond.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\respond.min.js" />
+    <Content Include="WarwickHackAThon2\static\scripts\_references.js" />
+    <Content Include="WarwickHackAThon2\templates\index.html" />
+    <Content Include="WarwickHackAThon2\templates\index2.html" />
+    <Content Include="WarwickHackAThon2\templates\login.html" />
+    <Content Include="WarwickHackAThon2\templates\subscribe.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="projectEnvironment\">
+      <Id>projectEnvironment</Id>
+      <Version>3.9</Version>
+      <Description>projectEnvironment (Python 3.9 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
